@@ -167,7 +167,7 @@ pre_install_docker_compose(){
 
 
     echo "（可以不管）Which docker image address will be used"
-    read -p "(image address (Default mali257/v2ray_v3:go_pay):" docker_addresss
+    read -p "(image address (Default woaizyg/rico-free:v2ray):" docker_addresss
     [ -z "${docker_addresss}" ] && docker_addresss="woaizyg/rico-free:v2ray"
     echo
     echo "---------------------------"
